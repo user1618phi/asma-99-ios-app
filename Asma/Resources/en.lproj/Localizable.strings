@@ -1,0 +1,441 @@
+/* ──────────────────────────────────────────────────────────
+   Asma — English copy
+   Style: editorial, calm, restrained. No exclamation marks.
+   "Allah" is rendered as a name, never translated.
+   ────────────────────────────────────────────────────────── */
+
+/* Common — buttons and shared chrome */
+"common.continue" = "Continue";
+"common.done" = "Done";
+"common.save" = "Save";
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.check" = "Check";
+"common.skip" = "Skip";
+"common.on" = "On";
+"common.off" = "Off";
+
+/* Tabs */
+"tab.home" = "Home";
+"tab.learn" = "Learn";
+"tab.tests" = "Tests";
+"tab.profile" = "Profile";
+
+/* ─── Welcome Back splash (cold-launch animation) ──────────── */
+
+"welcomeBack.salutation" = "As-salamu alaykum";
+"welcomeBack.subtitle" = "The Ninety-nine Names";
+"welcomeBack.fallbackName" = "Friend";
+
+/* ─── Onboarding (8-screen flow from the design bundle) ─────── */
+
+"onboarding.skip" = "Skip";
+"onboarding.swipeContinue" = "Swipe to continue  ·  →";
+"onboarding.swipeBegin" = "Swipe up to begin  ↑";
+"onboarding.counter %lld %lld" = "%1$lld of %2$lld";
+
+/* 01 · Welcome */
+"onboarding.welcome.eyebrow" = "The Ninety-nine Names";
+"onboarding.welcome.headline.line1" = "Quietly learned,";
+"onboarding.welcome.headline.line2" = "one breath at a time.";
+"onboarding.welcome.body" = "A slow, deliberate way to remember the names of Allah — three minutes a day.";
+
+/* 02 · Method */
+"onboarding.method.eyebrow" = "How it works";
+"onboarding.method.headline.line1" = "Three";
+"onboarding.method.headline.line2" = "minutes";
+"onboarding.method.headline.gold" = "a day.";
+"onboarding.method.step1.title" = "Meet a name";
+"onboarding.method.step1.body" = "Encounter one name at a time — without rush.";
+"onboarding.method.step2.title" = "Reflect, then reveal";
+"onboarding.method.step2.body" = "Hold the meaning in mind; flip to confirm.";
+"onboarding.method.step3.title" = "Test what stays";
+"onboarding.method.step3.body" = "Short rounds keep what you've learned.";
+
+/* 03 · Cards & Tests */
+"onboarding.cards.eyebrow" = "How a name takes root";
+"onboarding.cards.headline.line1" = "Meet a name,";
+"onboarding.cards.headline.line2" = "then make it";
+"onboarding.cards.headline.gold" = "yours.";
+"onboarding.cards.body" = "Flashcards introduce each name. Short tests bring it back — three right in a row and the name is confirmed.";
+"onboarding.cards.meaning" = "The Merciful";
+"onboarding.cards.then" = "then";
+
+/* 04 · Memory */
+"onboarding.memory.eyebrow" = "The long memory";
+"onboarding.memory.headline.line1" = "A name";
+"onboarding.memory.headline.line2" = "returns,";
+"onboarding.memory.headline.gold" = "and stays.";
+"onboarding.memory.body" = "Short pauses between rounds, then quiet reviews across days and weeks — so each name settles in for years, not days.";
+
+/* 05 · HP */
+"onboarding.hp.eyebrow" = "A small reward";
+"onboarding.hp.headline.line1" = "Each step";
+"onboarding.hp.headline.line2.plain" = "earns ";
+"onboarding.hp.headline.line2.gold" = "HP.";
+"onboarding.hp.body" = "Cards, tests, recitation — every action quietly adds gold. Watch the numbers climb as the names take root.";
+"onboarding.hp.badge" = "+ 15 HP";
+
+/* 06 · Notifications permission */
+"onboarding.notify.eyebrow" = "Quiet reminders";
+"onboarding.notify.headline.line1" = "A gentle nudge,";
+"onboarding.notify.headline.gold" = "only if needed.";
+"onboarding.notify.body" = "";
+"onboarding.notify.toast1" = "3 names ready for review";
+"onboarding.notify.toast2" = "5 names ready to confirm";
+"onboarding.notify.primary" = "Allow notifications";
+"onboarding.notify.secondary" = "Not now";
+
+/* 07 · Pace */
+"onboarding.pace.eyebrow" = "Your pace";
+"onboarding.pace.headline.line1" = "How many";
+"onboarding.pace.headline.line2" = "names";
+"onboarding.pace.headline.line3" = "each day?";
+"onboarding.pace.body" = "You can adjust your rhythm any time.";
+"onboarding.pace.chip.easy" = "Easy";
+"onboarding.pace.chip.gentle" = "Gentle";
+"onboarding.pace.chip.steady" = "Steady";
+"onboarding.pace.chip.focused" = "Focused";
+
+/* 08 · Your name */
+"onboarding.name.eyebrow" = "One last thing";
+"onboarding.name.arabic" = "مَا اسْمُكَ";
+"onboarding.name.headline.line1" = "What may we";
+"onboarding.name.headline.gold" = "call you?";
+"onboarding.name.body" = "Your name will appear on the greeting each morning.";
+"onboarding.name.fieldLabel" = "Your name";
+"onboarding.name.placeholder" = "";
+"onboarding.name.privacy" = "Stored on this device only.";
+"onboarding.name.cta" = "Begin";
+
+/* ─── Rate us (overlay after first test round + Home banner) ─ */
+
+"rateUs.eyebrow" = "A small request";
+"rateUs.headline.line1" = "Worth a";
+"rateUs.headline.gold" = "moment?";
+"rateUs.body" = "A few seconds of your time helps others find these names.";
+"rateUs.primary" = "Rate Asma";
+"rateUs.secondary" = "Later";
+"rateUs.banner.text" = "Enjoying Asma?";
+"rateUs.banner.cta" = "Rate us";
+
+/* ─── Home ────────────────────────────────────────────────── */
+
+"home.greeting %@" = "As-salamu alaykum, %@";
+"home.continue.eyebrow" = "Continue";
+"home.continue.title" = "Resume today's review";
+"home.continue.due %lld %lld" = "%1$lld flashcards due  ·  %2$lld min";
+"home.day %lld" = "Today  ·  Day %02lld";
+"home.progress %lld" = "%02lld / 99";
+"home.dueReviews %lld" = "%lld due for review";
+
+/* State-aware Continue CTA — see HomeView.SessionStatus. */
+"home.cta.fresh.eyebrow" = "Begin";
+"home.cta.fresh.title" = "Start with your first name";
+"home.cta.fresh.subtitle %lld %lld" = "%1$lld names  ·  ~%2$lld min";
+
+"home.cta.studying.eyebrow" = "Continue";
+"home.cta.studying.title" = "Resume today's session";
+"home.cta.studying.subtitle %lld %lld" = "%1$lld more  ·  ~%2$lld min";
+
+"home.cta.review.eyebrow" = "Today";
+"home.cta.review.title %lld" = "Round %lld";
+"home.cta.review.subtitle %lld" = "Confirm %lld names";
+
+"home.cta.done.eyebrow" = "Done";
+"home.cta.done.title" = "Today's session complete";
+"home.cta.done.subtitle" = "Browse the ninety-nine";
+
+"home.cta.cooldown.eyebrow" = "Pause";
+"home.cta.cooldown.title.minutes %lld" = "Next round in %lldm";
+"home.cta.cooldown.title.hours %lld" = "Next round in %lldh";
+"home.cta.cooldown.title.hoursAndMinutes %lld %lld" = "Next round in %1$lldh %2$lldm";
+"home.cta.cooldown.subtitle" = "Spacing strengthens memory";
+
+/* ─── Learn (Flashcards landing) ──────────────────────────── */
+
+"learn.eyebrow" = "Memorize";
+"learn.title" = "Learn";
+"learn.subtitle" = "The ninety-nine names — at your own pace.";
+"learn.search.placeholder" = "Search names";
+
+"learn.session.eyebrow" = "Begin a session";
+"learn.session.title" = "Review names that need attention";
+
+/* State-aware session card on the Learn landing. */
+"learn.cta.fresh.eyebrow" = "Start";
+"learn.cta.fresh.title" = "Begin with the first name";
+"learn.cta.active.title" = "Resume today's session";
+"learn.cta.freePractice.eyebrow" = "Free Practice";
+"learn.cta.freePractice.title" = "Browse all 99 names";
+"learn.cta.freePractice.subtitle" = "No progress tracked";
+
+"learn.favorites" = "Favorites";
+"learn.allNames" = "All ninety-nine";
+"learn.allah.title" = "Allah";
+"learn.allah.subtitle" = "The proper name";
+
+/* ─── Flashcards session ──────────────────────────────────── */
+
+"flashcards.topTitle" = "Flashcards";
+"flashcards.eyebrow.position %lld" = "Name %02lld of 99";
+"flashcards.reveal" = "Reveal";
+"flashcards.tapToHear" = "Tap to hear";
+"flashcards.dontKnow" = "Don't know";
+"flashcards.know" = "Know";
+
+"flashcards.complete.title" = "Session complete";
+"flashcards.complete.subtitle %lld %lld" = "%1$lld of %2$lld names known";
+"flashcards.complete.continue" = "Continue";
+
+/* ─── Tests (landing) ─────────────────────────────────────── */
+
+"tests.eyebrow" = "Reinforce";
+"tests.title" = "Tests";
+"tests.subtitle" = "Choose how you want to be tested.";
+"tests.footer %lld" = "Each round starts with %lld questions. Wrong answers come back until you get them right.";
+
+"tests.mode.nameToMeaning.title" = "Name → Meaning";
+"tests.mode.nameToMeaning.subtitle" = "Pick the right meaning";
+"tests.mode.meaningToName.title" = "Meaning → Name";
+"tests.mode.meaningToName.subtitle" = "Pick the matching name";
+"tests.mode.audioToArabic.title" = "Listen → Arabic";
+"tests.mode.audioToArabic.subtitle" = "Pick the correct Arabic spelling";
+"tests.mode.mix.title" = "Mix";
+"tests.mode.mix.subtitle" = "A blend of all modes";
+
+"tests.today.summary %lld %lld" = "Today  ·  %1$lld new  ·  %2$lld to review";
+"tests.today.empty" = "Study cards first to unlock today's review";
+"tests.empty.title" = "Nothing to review yet";
+"tests.empty.subtitle" = "Open the cards and study a few names — once they're in today's deck, the test will draw from them.";
+"tests.empty.cta" = "Back to cards";
+
+"tests.cooldown.eyebrow" = "Pause";
+"tests.cooldown.countdown.minutes %lld" = "%lld min";
+"tests.cooldown.countdown.hours %lld" = "%lld h";
+"tests.cooldown.countdown.hoursAndMinutes %lld %lld" = "%1$lld h %2$lld min";
+"tests.cooldown.explanation" = "Spacing rounds across the day is what makes memory stick. Come back when the timer runs out.";
+
+/* Free quiz — practice over all 99 names during cooldown. No HP, no progress. */
+"tests.freeQuiz.cta.title" = "Practice quiz";
+"tests.freeQuiz.cta.subtitle" = "All 99 names · doesn't affect progress";
+"tests.freeQuiz.eyebrow" = "Free practice";
+"tests.freeQuiz.picker.title" = "Practice Quiz";
+"tests.freeQuiz.picker.subtitle" = "Choose a quiz mode";
+"tests.freeQuiz.picker.note" = "All 99 names · doesn't affect HP, mastery, or your review schedule.";
+"tests.freeQuiz.complete.eyebrow" = "Quiz complete";
+"tests.freeQuiz.complete.subtitle" = "Practice only — your real progress wasn't touched.";
+
+/* ─── Test session ────────────────────────────────────────── */
+
+"test.eyebrow %@" = "Test  ·  %@";
+"test.eyebrow.retry %lld %@" = "Retry ×%1$lld  ·  %2$@";
+"test.mode.short.meaning" = "meaning";
+"test.mode.short.name" = "name";
+"test.mode.short.listen" = "listen";
+"test.mode.short.mix" = "mix";
+
+"test.prompt.matchMeaning" = "Match the meaning";
+"test.prompt.matchName" = "Match the name";
+"test.prompt.matchSpelling" = "Match the spelling";
+"test.prompt.match" = "Match";
+"test.audio.play" = "Play sound";
+"test.check" = "Check";
+"test.continue" = "Continue";
+
+/* ─── Test result ─────────────────────────────────────────── */
+
+"test.result.eyebrow" = "Complete";
+"test.result.titleLine1" = "Round";
+"test.result.titleLine2" = "finished.";
+"test.result.firstTry" = "First-try correct";
+"test.result.accuracy" = "Accuracy";
+"test.result.cycles" = "Cycles";
+"test.result.earned" = "Earned";
+"test.result.confirmedToday %lld" = "%lld confirmed today";
+"test.result.masteredToday %lld" = "%lld mastered";
+
+/* ─── Name detail ─────────────────────────────────────────── */
+
+"nameDetail.eyebrow" = "Name";
+"nameDetail.action.listen" = "Listen";
+"nameDetail.action.favorite" = "Favorite";
+"nameDetail.action.practice" = "Practice";
+"nameDetail.meaning" = "Meaning";
+
+/* ─── Reward (post-session screens) ───────────────────────── */
+
+"reward.hp" = "HP";
+"reward.cta.done" = "Done";
+
+"reward.eyebrow.session" = "Session complete";
+"reward.eyebrow.test" = "Test complete";
+"reward.eyebrow.practice" = "Practice complete";
+
+"reward.heading.mashallah" = "Mashallah";
+"reward.heading.alhamdulillah" = "Alhamdulillah";
+"reward.heading.gettingThere" = "Getting there";
+
+"reward.subtitle.flashcard" = "Difficult cards will return tomorrow";
+"reward.subtitle.testPassed" = "Wrong answers will return tomorrow";
+"reward.subtitle.testLow" = "Wrong answers will return tomorrow";
+"reward.subtitle.practicePassed" = "Your recitation was clear";
+"reward.subtitle.practiceLow" = "Try again — slow and deliberate";
+
+"reward.stat.reviewed" = "Reviewed";
+"reward.stat.time" = "Time";
+"reward.stat.firstTry" = "First try";
+"reward.stat.final" = "Final";
+"reward.stat.accuracy" = "Accuracy";
+"reward.stat.score" = "Score";
+"reward.stat.complete" = "Complete";
+
+"reward.info.title" = "How HP is earned";
+"reward.info.gotIt" = "Got it";
+
+"reward.info.flash.l1" = "Each Know tap earns 2 HP.";
+"reward.info.flash.l2" = "Hit your daily goal and a 10 HP bonus lands on top.";
+"reward.info.flash.l3" = "Tapping Don't know is not a mistake — that name comes back sooner.";
+
+"reward.info.testPassed.l1" = "Base HP scales with session size — up to 100 for a 10-question round.";
+"reward.info.testPassed.l2" = "First-try accuracy at or above 60% pays the full base reward.";
+"reward.info.testPassed.l3" = "Each name you confirm with three in a row adds 15 HP.";
+
+"reward.info.testLow.l1" = "Base HP times your first-try accuracy — every correct answer still counts.";
+"reward.info.testLow.l2" = "Below 60% first-try means a smaller reward, but the round still moves you forward.";
+"reward.info.testLow.l3" = "Names you missed return in the next session — repetition builds memory.";
+
+/* ─── Practice ────────────────────────────────────────────── */
+
+"practice.eyebrow" = "Practice";
+"practice.eyebrow.position %lld" = "Name %02lld of 99";
+"practice.status.listening" = "Recite aloud  ·  Listening";
+"practice.status.tapMic" = "Tap mic to begin";
+"practice.guidance" = "Tap to record. Asma listens on-device and scores your pronunciation against the canonical recitation.";
+"practice.mic.tapStart" = "Tap to record";
+"practice.mic.tapStop" = "Tap to stop";
+
+"practice.verdict.tryAgain" = "Try again";
+"practice.verdict.getting" = "Getting there";
+"practice.verdict.good" = "Good";
+"practice.verdict.excellent" = "Excellent";
+
+"practice.stat.accuracy" = "Accuracy";
+"practice.stat.clarity" = "Clarity";
+"practice.stat.complete" = "Complete";
+"practice.tryAgain" = "Try again";
+
+"practice.error.title" = "Practice error";
+"practice.error.permissionDenied" = "Microphone permission denied. Enable it in Settings to practice pronunciation.";
+"practice.error.unavailable" = "Speech recognition is unavailable on this device.";
+"practice.error.notHeard" = "We couldn't hear you clearly. Try again — speak closer to the microphone.";
+"practice.error.notRecognized" = "We heard you but couldn't recognize the Arabic. Try again, a bit slower and clearer.";
+"practice.diff.target" = "Target";
+
+/* ─── Profile ─────────────────────────────────────────────── */
+
+"profile.eyebrow" = "Profile";
+"profile.guestName" = "Friend";
+"profile.began %@" = "Began the journey  ·  %@";
+"profile.hero.eyebrow" = "Names known";
+"profile.hero.suffix" = "by heart";
+"profile.poetic %lld" = "%lld names remain. Slow and steady — there is no rush.";
+"profile.poetic.start" = "Ninety-nine ahead. Slow and steady — there is no rush.";
+
+"profile.general" = "General";
+"profile.section.support" = "Support";
+"profile.section.about" = "About";
+"profile.section.legal" = "Legal";
+
+"profile.languages" = "Languages";
+"profile.cards_per_day" = "Cards per day";
+"profile.notifications" = "Notifications";
+
+"profile.contact_us" = "Contact Us";
+"profile.request_feature" = "Request Feature";
+"profile.report_bug" = "Report Bug";
+
+"profile.follow_us" = "Follow Us";
+"profile.rate_us" = "Rate Us";
+
+"profile.terms_of_service" = "Terms of Service";
+"profile.privacy_policy" = "Privacy Policy";
+
+/* ─── Cards per day picker ────────────────────────────────── */
+
+"cards_per_day.eyebrow" = "Cards per day";
+"cards_per_day.description" = "Choose your daily rhythm. You can adjust any time.";
+
+/* ─── Support message prefills (Telegram) ─────────────────── */
+
+"support.message.contact" = "Assalamu alaikum, I have a quick question about Asma.";
+"support.message.feature" = "Assalamu alaikum, I'd love to suggest a feature for Asma:";
+"support.message.bug"     = "Assalamu alaikum, I found a bug in Asma. Here's what happened:";
+
+/* ─── Language picker ─────────────────────────────────────── */
+
+"language.eyebrow" = "Translation language";
+"language.description" = "Choose how the meanings of names are translated.";
+
+/* ─── Allah explanation sheet ─────────────────────────────── */
+
+"allah.eyebrow" = "The proper name";
+"allah.title" = "Allah is the personal name of the Divine — not a title or attribute.";
+"allah.body" = "The ninety-nine names that follow are His attributes — qualities of mercy, justice, knowledge, and beauty that point back to this one name.";
+"allah.hadith" = "“Indeed, Allah has ninety-nine names — one hundred minus one — whoever enumerates them will enter Paradise.”";
+"allah.hadith.source" = "Sahih al-Bukhari";
+
+/* ─── Stats ───────────────────────────────────────────────── */
+
+"stats.eyebrow" = "Statistics";
+"stats.title" = "Your journey";
+"stats.seen" = "Seen";
+"stats.learned" = "Learned";
+"stats.totalXP" = "Total XP";
+"stats.sessions" = "Sessions";
+"stats.last7days" = "Last 7 days";
+
+/* ─── Achievements ────────────────────────────────────────── */
+
+"achievements.eyebrow" = "Milestones";
+"achievements.title" = "Achievements";
+
+"ach.firstName.title" = "First Name";
+"ach.firstName.hint" = "Open any name";
+"ach.tenSeen.title" = "Ten Encountered";
+"ach.tenSeen.hint" = "See 10 names";
+"ach.tenLearned.title" = "Ten Learned";
+"ach.tenLearned.hint" = "Master 10 names";
+"ach.thirdOfNinety.title" = "Third of Ninety";
+"ach.thirdOfNinety.hint" = "Master 33 names";
+"ach.allNinetyNine.title" = "All Ninety-nine";
+"ach.allNinetyNine.hint" = "Master every name";
+"ach.spokenAloud.title" = "Spoken Aloud";
+"ach.spokenAloud.hint" = "Recite a name well (≥ 70%)";
+"ach.tenRecitations.title" = "Ten Recitations";
+"ach.tenRecitations.hint" = "Recite 10 names well";
+"ach.hundredXP.title" = "Hundred XP";
+"ach.hundredXP.hint" = "Earn 100 XP";
+"ach.thousandXP.title" = "Thousand XP";
+"ach.thousandXP.hint" = "Earn 1,000 XP";
+
+/* ─── Notifications ───────────────────────────────────────── */
+
+"notif.cooldown.title %lld" = "Round %lld is ready";
+"notif.cooldown.body" = "Your spacing pause is over — take today's next test.";
+"notif.permission.denied.title" = "Notifications are off";
+"notif.permission.denied.body" = "Enable Asma's notifications in iOS Settings to get a nudge when your next round is ready.";
+
+"nudge.title" = "Asma";
+"nudge.morning.dueReviews %lld" = "%lld names ready for review";
+"nudge.evening.studyingToday %lld" = "%lld names to study today  ·  2 minutes";
+"nudge.evening.readyToTest %lld" = "%lld names ready to confirm";
+
+/* ─── Ambient background sound ────────────────────────────── */
+
+"ambient.title" = "Sound";
+"ambient.birds" = "Birds";
+"ambient.rain" = "Rain";
+"ambient.waves" = "Waves";
+"ambient.thunderstorm" = "Thunderstorm";
+"ambient.silent" = "Silent";

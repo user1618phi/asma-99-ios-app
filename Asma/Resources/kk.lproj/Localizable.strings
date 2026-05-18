@@ -1,0 +1,441 @@
+/* ──────────────────────────────────────────────────────────
+   Asma — Қазақша аударма
+   Стиль: тыныш, өлшеулі. Леп белгілерінсіз.
+   «Аллаһ» есімі аударылмайды. «Аллаһтың есімдері» — стандарт.
+   ────────────────────────────────────────────────────────── */
+
+/* Ортақ */
+"common.continue" = "Жалғастыру";
+"common.done" = "Дайын";
+"common.save" = "Сақтау";
+"common.ok" = "OK";
+"common.cancel" = "Болдырмау";
+"common.check" = "Тексеру";
+"common.skip" = "Өткізу";
+"common.on" = "Қосулы";
+"common.off" = "Өшірулі";
+
+/* Қойындылар */
+"tab.home" = "Басты";
+"tab.learn" = "Үйрену";
+"tab.tests" = "Тесттер";
+"tab.profile" = "Профиль";
+
+/* ─── Welcome Back splash (cold-launch анимация) ─────────── */
+
+"welcomeBack.salutation" = "Ассалаумағалейкум";
+"welcomeBack.subtitle" = "Тоқсан тоғыз есім";
+"welcomeBack.fallbackName" = "Дос";
+
+/* ─── Онбординг (макеттегі 8 экран) ────────────────────────── */
+
+"onboarding.skip" = "Өткізу";
+"onboarding.swipeContinue" = "Жалғастыру үшін сипаңыз  ·  →";
+"onboarding.swipeBegin" = "Жоғары қарай сырғытыңыз  ↑";
+"onboarding.counter %lld %lld" = "%1$lld / %2$lld";
+
+/* 01 · Қарсы алу */
+"onboarding.welcome.eyebrow" = "Тоқсан тоғыз есім";
+"onboarding.welcome.headline.line1" = "Бір тыныспен,";
+"onboarding.welcome.headline.line2" = "жайымен үйрен.";
+"onboarding.welcome.body" = "Аллаһтың есімдерін жайымен үйренеміз — күніне үш минут.";
+
+/* 02 · Әдіс */
+"onboarding.method.eyebrow" = "Қалай жұмыс істейді";
+"onboarding.method.headline.line1" = "Күніне";
+"onboarding.method.headline.line2" = "үш";
+"onboarding.method.headline.gold" = "минут.";
+"onboarding.method.step1.title" = "Есіммен таныс";
+"onboarding.method.step1.body" = "Бір есім, асықпай.";
+"onboarding.method.step2.title" = "Ойлан, сосын аш";
+"onboarding.method.step2.body" = "Мағынасын есіңе ал, сосын аш.";
+"onboarding.method.step3.title" = "Тексер";
+"onboarding.method.step3.body" = "Қысқа тесттер үйренгеніңді бекітеді.";
+
+/* 03 · Карточкалар және тесттер */
+"onboarding.cards.eyebrow" = "Есім қалай есте қалады";
+"onboarding.cards.headline.line1" = "Танып,";
+"onboarding.cards.headline.line2" = "оны";
+"onboarding.cards.headline.gold" = "есте сақта.";
+"onboarding.cards.body" = "Карточкалар есімдермен таныстырады. Тесттер оларды қайтарады — қатарынан үш дұрыс жауап, есім сенікі.";
+"onboarding.cards.meaning" = "Мейірімді";
+"onboarding.cards.then" = "сосын";
+
+/* 04 · Жады */
+"onboarding.memory.eyebrow" = "Ұзақ жады";
+"onboarding.memory.headline.line1" = "Есім";
+"onboarding.memory.headline.line2" = "қайтып келеді,";
+"onboarding.memory.headline.gold" = "қалады.";
+"onboarding.memory.body" = "Тесттер арасында қысқа үзіліс. Кейін есім күндер мен апталар бойы қайтып келеді — жылдарға есте қалады.";
+
+/* 05 · HP */
+"onboarding.hp.eyebrow" = "Кішкене сыйлық";
+"onboarding.hp.headline.line1" = "Әр қадам";
+"onboarding.hp.headline.line2.plain" = "";
+"onboarding.hp.headline.line2.gold" = "HP әкеледі.";
+"onboarding.hp.body" = "Карточкалар, тесттер, дауыстап оқу — әрқайсы HP қосады. Үйренген сайын сандар өсіп отырады.";
+"onboarding.hp.badge" = "+ 15 HP";
+
+/* 06 · Хабарламалар */
+"onboarding.notify.eyebrow" = "Тыныш еске салулар";
+"onboarding.notify.headline.line1" = "Қажет болса ғана —";
+"onboarding.notify.headline.gold" = "жұмсақ ескерту.";
+"onboarding.notify.body" = "";
+"onboarding.notify.toast1" = "3 есім қайталауға дайын";
+"onboarding.notify.toast2" = "5 есім бекітуге дайын";
+"onboarding.notify.primary" = "Хабарламаларды қосу";
+"onboarding.notify.secondary" = "Қазір емес";
+
+/* 07 · Қарқын */
+"onboarding.pace.eyebrow" = "Қарқын";
+"onboarding.pace.headline.line1" = "Күніне";
+"onboarding.pace.headline.line2" = "";
+"onboarding.pace.headline.line3" = "қанша есім?";
+"onboarding.pace.body" = "Қарқынды кез келген уақытта өзгерте аласыз.";
+"onboarding.pace.chip.easy" = "Жеңіл";
+"onboarding.pace.chip.gentle" = "Жайлы";
+"onboarding.pace.chip.steady" = "Тұрақты";
+"onboarding.pace.chip.focused" = "Қарқынды";
+
+/* 08 · Атыңыз */
+"onboarding.name.eyebrow" = "Соңғысы";
+"onboarding.name.arabic" = "مَا اسْمُكَ";
+"onboarding.name.headline.line1" = "Есіміңіз";
+"onboarding.name.headline.gold" = "кім?";
+"onboarding.name.body" = "Атыңыз таңғы сәлемдесуде көрінеді.";
+"onboarding.name.fieldLabel" = "Атыңыз";
+"onboarding.name.placeholder" = "";
+"onboarding.name.privacy" = "Тек осы құрылғыда сақталады.";
+"onboarding.name.cta" = "Бастау";
+
+/* ─── Rate us (бірінші раунд сосын + Басты экрандағы баннер) ─ */
+
+"rateUs.eyebrow" = "Кішкене өтініш";
+"rateUs.headline.line1" = "Бір минутыңыз";
+"rateUs.headline.gold" = "табыла ма?";
+"rateUs.body" = "Бірнеше секунд — басқалар да осы есімдерді табады.";
+"rateUs.primary" = "Asma-ны бағалау";
+"rateUs.secondary" = "Кейінірек";
+"rateUs.banner.text" = "Asma ұнайды ма?";
+"rateUs.banner.cta" = "Бағалаңыз";
+
+/* ─── Басты экран ─────────────────────────────────────────── */
+
+"home.greeting %@" = "Ассалаумағалейкум, %@";
+"home.continue.eyebrow" = "Жалғастыру";
+"home.continue.title" = "Бүгінгі қайталауды жалғастыру";
+"home.continue.due %lld %lld" = "%1$lld карта  ·  %2$lld мин";
+"home.day %lld" = "Бүгін  ·  %02lld-күн";
+"home.progress %lld" = "%02lld / 99";
+"home.dueReviews %lld" = "%lld қайталау керек";
+
+/* State-aware Continue CTA — HomeView.SessionStatus қараңыз. */
+"home.cta.fresh.eyebrow" = "Бастау";
+"home.cta.fresh.title" = "Алғашқы есімнен бастайық";
+"home.cta.fresh.subtitle %lld %lld" = "%1$lld есім  ·  ~%2$lld мин";
+
+"home.cta.studying.eyebrow" = "Жалғастыру";
+"home.cta.studying.title" = "Бүгінгі сабақты жалғастыру";
+"home.cta.studying.subtitle %lld %lld" = "тағы %1$lld  ·  ~%2$lld мин";
+
+"home.cta.review.eyebrow" = "Бүгін";
+"home.cta.review.title %lld" = "%lld-раунд";
+"home.cta.review.subtitle %lld" = "%lld есімді растау";
+
+"home.cta.done.eyebrow" = "Дайын";
+"home.cta.done.title" = "Бүгінгі сабақ аяқталды";
+"home.cta.done.subtitle" = "Тоқсан тоғызды парақтау";
+
+"home.cta.cooldown.eyebrow" = "Үзіліс";
+"home.cta.cooldown.title.minutes %lld" = "Келесі раунд %lld мин кейін";
+"home.cta.cooldown.title.hours %lld" = "Келесі раунд %lld сағ кейін";
+"home.cta.cooldown.title.hoursAndMinutes %lld %lld" = "Келесі раунд %1$lld сағ %2$lld мин кейін";
+"home.cta.cooldown.subtitle" = "Үзіліс жадыны бекітеді";
+
+/* ─── Үйрену (флэшкарталар тізімі) ────────────────────────── */
+
+"learn.eyebrow" = "Жаттау";
+"learn.title" = "Үйрену";
+"learn.subtitle" = "Тоқсан тоғыз есім — өз ырғағыңызбен.";
+"learn.search.placeholder" = "Есімді іздеу";
+
+"learn.session.eyebrow" = "Сабақты бастау";
+"learn.session.title" = "Назар аударуды қажет ететін есімдерді қайталау";
+
+/* State-aware Үйрену экранындағы сабақ карточкасы. */
+"learn.cta.fresh.eyebrow" = "Старт";
+"learn.cta.fresh.title" = "Алғашқы есімнен бастайық";
+"learn.cta.active.title" = "Бүгінгі сабақты жалғастыру";
+"learn.cta.freePractice.eyebrow" = "Еркін";
+"learn.cta.freePractice.title" = "Барлық 99 есімді парақтау";
+"learn.cta.freePractice.subtitle" = "Прогресс есепке алынбайды";
+
+"learn.favorites" = "Таңдаулылар";
+"learn.allNames" = "Барлық тоқсан тоғыз";
+"learn.allah.title" = "Аллаһ";
+"learn.allah.subtitle" = "Жеке есім";
+
+/* ─── Флэшкарталар сабағы ─────────────────────────────────── */
+
+"flashcards.topTitle" = "Карталар";
+"flashcards.eyebrow.position %lld" = "%02lld / 99";
+"flashcards.reveal" = "Ашу";
+"flashcards.tapToHear" = "Тыңдау";
+"flashcards.dontKnow" = "Білмеймін";
+"flashcards.know" = "Білемін";
+
+"flashcards.complete.title" = "Сабақ аяқталды";
+"flashcards.complete.subtitle %lld %lld" = "%2$lld есімнен %1$lld-сі жатталды";
+"flashcards.complete.continue" = "Жалғастыру";
+
+/* ─── Тесттер (басты) ─────────────────────────────────────── */
+
+"tests.eyebrow" = "Бекіту";
+"tests.title" = "Тесттер";
+"tests.subtitle" = "Сынау форматын таңдаңыз.";
+"tests.footer %lld" = "Әр раундта %lld сұрақ. Қате жауаптар дұрыс жауап бергенше қайталанады.";
+
+"tests.mode.nameToMeaning.title" = "Есім → Мағына";
+"tests.mode.nameToMeaning.subtitle" = "Дұрыс мағынаны таңдаңыз";
+"tests.mode.meaningToName.title" = "Мағына → Есім";
+"tests.mode.meaningToName.subtitle" = "Сәйкес есімді таңдаңыз";
+"tests.mode.audioToArabic.title" = "Дыбыс → Араб";
+"tests.mode.audioToArabic.subtitle" = "Дұрыс жазылуын таңдаңыз";
+"tests.mode.mix.title" = "Аралас";
+"tests.mode.mix.subtitle" = "Барлық режимдердің қоспасы";
+
+"tests.today.summary %lld %lld" = "Бүгін  ·  %1$lld жаңа  ·  %2$lld қайталау";
+"tests.today.empty" = "Алдымен карталарды өтіңіз — бүгінгі тест солардан жасалады";
+"tests.empty.title" = "Бүгін тексеретін ештеңе жоқ";
+"tests.empty.subtitle" = "Карталарды ашып, бірнеше есімді үйреніңіз — содан кейін тест соларды сұрайды.";
+"tests.empty.cta" = "Карталарға қайту";
+
+"tests.cooldown.eyebrow" = "Үзіліс";
+"tests.cooldown.countdown.minutes %lld" = "%lld мин";
+"tests.cooldown.countdown.hours %lld" = "%lld сағ";
+"tests.cooldown.countdown.hoursAndMinutes %lld %lld" = "%1$lld сағ %2$lld мин";
+"tests.cooldown.explanation" = "Раундтарды күн ішіне таратып өткізу есімдерді жадыңызда мықты сақтайды. Таймер аяқталғанда оралыңыз.";
+
+/* Еркін тест — үзіліс уақытында 99 есімді жаттығу. HP да, прогреске де әсер етпейді. */
+"tests.freeQuiz.cta.title" = "Жаттығу тесті";
+"tests.freeQuiz.cta.subtitle" = "Барлық 99 есім · прогреске әсер етпейді";
+"tests.freeQuiz.eyebrow" = "Еркін жаттығу";
+"tests.freeQuiz.picker.title" = "Practice Quiz";
+"tests.freeQuiz.picker.subtitle" = "Режимді таңдаңыз";
+"tests.freeQuiz.picker.note" = "Барлық 99 есім · HP-ға, есте сақтауға және қайталау кестесіне әсер етпейді.";
+"tests.freeQuiz.complete.eyebrow" = "Тест аяқталды";
+"tests.freeQuiz.complete.subtitle" = "Тек жаттығу — нақты прогресс өзгерген жоқ.";
+
+/* ─── Тест сабағы ─────────────────────────────────────────── */
+
+"test.eyebrow %@" = "Тест  ·  %@";
+"test.eyebrow.retry %lld %@" = "Қайталау ×%1$lld  ·  %2$@";
+"test.mode.short.meaning" = "мағына";
+"test.mode.short.name" = "есім";
+"test.mode.short.listen" = "дыбыс";
+"test.mode.short.mix" = "аралас";
+
+"test.prompt.matchMeaning" = "Мағынаны таңдаңыз";
+"test.prompt.matchName" = "Есімді таңдаңыз";
+"test.prompt.matchSpelling" = "Жазылуын таңдаңыз";
+"test.prompt.match" = "Сәйкестіріңіз";
+"test.audio.play" = "Тыңдау";
+"test.check" = "Тексеру";
+"test.continue" = "Әрі қарай";
+
+/* ─── Тест нәтижесі ───────────────────────────────────────── */
+
+"test.result.eyebrow" = "Аяқталды";
+"test.result.titleLine1" = "Раунд";
+"test.result.titleLine2" = "бітті.";
+"test.result.firstTry" = "Бірінші талпыныстан";
+"test.result.accuracy" = "Дәлдік";
+"test.result.cycles" = "Циклдар";
+"test.result.earned" = "Жинадыңыз";
+"test.result.confirmedToday %lld" = "%lld бүгін бекітілді";
+"test.result.masteredToday %lld" = "%lld жатталды";
+
+/* ─── Есім туралы ─────────────────────────────────────────── */
+
+"nameDetail.eyebrow" = "Есім";
+"nameDetail.action.listen" = "Тыңдау";
+"nameDetail.action.favorite" = "Таңдау";
+"nameDetail.action.practice" = "Айту";
+"nameDetail.meaning" = "Мағынасы";
+
+/* ─── Сыйақы (сабақтан кейінгі экрандар) ──────────────────── */
+
+"reward.hp" = "HP";
+"reward.cta.done" = "Дайын";
+
+"reward.eyebrow.session" = "Сабақ аяқталды";
+"reward.eyebrow.test" = "Тест аяқталды";
+"reward.eyebrow.practice" = "Айтылым аяқталды";
+
+"reward.heading.mashallah" = "МашаАллаһ";
+"reward.heading.alhamdulillah" = "Әлхамдулиллаһ";
+"reward.heading.gettingThere" = "Жақындап келеді";
+
+"reward.subtitle.flashcard" = "Қиын карталар ертең қайта келеді";
+"reward.subtitle.testPassed" = "Қате жауаптар ертең қайта келеді";
+"reward.subtitle.testLow" = "Қате жауаптар ертең қайта келеді";
+"reward.subtitle.practicePassed" = "Сіздің айтуыңыз анық болды";
+"reward.subtitle.practiceLow" = "Қайтадан көріңіз — баяу әрі мұқият";
+
+"reward.stat.reviewed" = "Өтілді";
+"reward.stat.time" = "Уақыт";
+"reward.stat.firstTry" = "Бірінші";
+"reward.stat.final" = "Барлығы";
+"reward.stat.accuracy" = "Дәлдік";
+"reward.stat.score" = "Балл";
+"reward.stat.complete" = "Толықтық";
+
+"reward.info.title" = "HP қалай есептеледі";
+"reward.info.gotIt" = "Түсінікті";
+
+"reward.info.flash.l1" = "Әр «Білемін» түрту — 2 HP.";
+"reward.info.flash.l2" = "Күндік мақсат орындалса — қосымша 10 HP бонус.";
+"reward.info.flash.l3" = "«Білмеймін» түрту — қате емес. Ол есім тезірек қайтады.";
+
+"reward.info.testPassed.l1" = "HP базасы сабақ ұзындығына қарай өседі — 10 сұраққа дейін 100-ге дейін.";
+"reward.info.testPassed.l2" = "Бірінші талпыныстағы дәлдік 60%-дан кем болмаса — толық база сыйақы.";
+"reward.info.testPassed.l3" = "«3 қатарынан» бекіген әрбір есім үшін +15 HP.";
+
+"reward.info.testLow.l1" = "База HP × бірінші талпыныстағы дәлдік.";
+"reward.info.testLow.l2" = "60%-дан төмен — кішірек сыйақы, бірақ сабақ сізді алға жылжытады.";
+"reward.info.testLow.l3" = "Қате есімдер келесі сабақта қайта келеді — қайталау жадыны бекітеді.";
+
+/* ─── Жаттығу ─────────────────────────────────────────────── */
+
+"practice.eyebrow" = "Айтылым";
+"practice.eyebrow.position %lld" = "%02lld / 99";
+"practice.status.listening" = "Дауыстап оқыңыз  ·  тыңдалуда";
+"practice.status.tapMic" = "Микрофонды басыңыз";
+"practice.guidance" = "Жазу үшін басыңыз. Asma құрылғыда тыңдап, айтуыңызды бағалайды.";
+"practice.mic.tapStart" = "Жазуды бастау";
+"practice.mic.tapStop" = "Тоқтату";
+
+"practice.verdict.tryAgain" = "Тағы көріңіз";
+"practice.verdict.getting" = "Жақындап келеді";
+"practice.verdict.good" = "Жақсы";
+"practice.verdict.excellent" = "Тамаша";
+
+"practice.stat.accuracy" = "Дәлдік";
+"practice.stat.clarity" = "Айқындық";
+"practice.stat.complete" = "Толықтық";
+"practice.tryAgain" = "Қайталау";
+
+"practice.error.title" = "Жазу қатесі";
+"practice.error.permissionDenied" = "Микрофонға рұқсат жоқ. Айтылымды жаттығу үшін Баптауларда қосыңыз.";
+"practice.error.unavailable" = "Сөйлеу тану бұл құрылғыда қолжетімсіз.";
+"practice.error.notHeard" = "Сізді анық естімедік. Микрофонға жақынырақ сөйлеп, қайталап көріңіз.";
+"practice.error.notRecognized" = "Дауысыңызды естідік, бірақ араб тілін тани алмадық. Бірқалыпты әрі айқынырақ сөйлеп қайталап көріңіз.";
+"practice.diff.target" = "Үлгі";
+
+/* ─── Профиль ─────────────────────────────────────────────── */
+
+"profile.eyebrow" = "Профиль";
+"profile.guestName" = "Дос";
+"profile.began %@" = "Жолдың басталуы  ·  %@";
+"profile.hero.eyebrow" = "Жатталған есімдер";
+"profile.hero.suffix" = "жатқа";
+"profile.poetic %lld" = "%lld есім қалды. Асықпай — уақыт жетерлік.";
+"profile.poetic.start" = "Алда тоқсан тоғыз есім. Асықпай — уақыт жетерлік.";
+
+"profile.general" = "Жалпы";
+"profile.section.support" = "Қолдау";
+"profile.section.about" = "Қолданба туралы";
+"profile.section.legal" = "Құқықтық";
+
+"profile.languages" = "Тіл";
+"profile.cards_per_day" = "Күніне карточка";
+"profile.notifications" = "Хабарламалар";
+
+"profile.contact_us" = "Бізбен байланыс";
+"profile.request_feature" = "Функция ұсыну";
+"profile.report_bug" = "Қате туралы хабарлау";
+
+"profile.follow_us" = "Жазылу";
+"profile.rate_us" = "Бағалау";
+
+"profile.terms_of_service" = "Қызмет шарттары";
+"profile.privacy_policy" = "Құпиялылық саясаты";
+
+/* ─── Күндік карточка таңдау ──────────────────────────────── */
+
+"cards_per_day.eyebrow" = "Күніне карточка";
+"cards_per_day.description" = "Өз ырғағыңызды таңдаңыз. Кез келген уақытта өзгертуге болады.";
+
+/* ─── Telegram-ге арналған дайын хабарлар ─────────────────── */
+
+"support.message.contact" = "Assalamu alaikum, Asma бойынша қысқа сұрағым бар.";
+"support.message.feature" = "Assalamu alaikum, Asma үшін идея ұсынғым келеді:";
+"support.message.bug"     = "Assalamu alaikum, Asma-да қате таптым. Не болғаны мынау:";
+
+/* ─── Аударма тілін таңдау ────────────────────────────────── */
+
+"language.eyebrow" = "Аударма тілі";
+"language.description" = "Есімдердің мағынасы қай тілде көрсетілетінін таңдаңыз.";
+
+/* ─── «Аллаһ» есімі туралы ────────────────────────────────── */
+
+"allah.eyebrow" = "Жеке есім";
+"allah.title" = "Аллаһ — Жаратқанның жеке есімі, атақ та, сипат та емес.";
+"allah.body" = "Артынан келетін тоқсан тоғыз есім — Оның сипаттары: мейірім, әділдік, білім мен сұлулық қасиеттері, осы бір есімге қайта айналып соғады.";
+"allah.hadith" = "«Шынында, Аллаһтың тоқсан тоғыз есімі бар — жүзден біреуі кем — оларды жаттаған адам Жұмаққа кіреді».";
+"allah.hadith.source" = "Сахих әл-Бухари";
+
+/* ─── Статистика ──────────────────────────────────────────── */
+
+"stats.eyebrow" = "Статистика";
+"stats.title" = "Сіздің жолыңыз";
+"stats.seen" = "Көрілді";
+"stats.learned" = "Жатталды";
+"stats.totalXP" = "Жалпы XP";
+"stats.sessions" = "Сабақтар";
+"stats.last7days" = "Соңғы 7 күн";
+
+/* ─── Жетістіктер ─────────────────────────────────────────── */
+
+"achievements.eyebrow" = "Кезеңдер";
+"achievements.title" = "Жетістіктер";
+
+"ach.firstName.title" = "Алғашқы есім";
+"ach.firstName.hint" = "Кез келген есімді ашу";
+"ach.tenSeen.title" = "Он есім";
+"ach.tenSeen.hint" = "10 есімді көру";
+"ach.tenLearned.title" = "Он жатталды";
+"ach.tenLearned.hint" = "10 есімді меңгеру";
+"ach.thirdOfNinety.title" = "Үштен бір";
+"ach.thirdOfNinety.hint" = "33 есімді меңгеру";
+"ach.allNinetyNine.title" = "Барлық тоқсан тоғыз";
+"ach.allNinetyNine.hint" = "Әр есімді меңгеру";
+"ach.spokenAloud.title" = "Дауыстап айтылды";
+"ach.spokenAloud.hint" = "Есімді дауыстап оқу (≥ 70%)";
+"ach.tenRecitations.title" = "Он оқу";
+"ach.tenRecitations.hint" = "10 есімді дауыстап оқу";
+"ach.hundredXP.title" = "Жүз XP";
+"ach.hundredXP.hint" = "100 XP жинау";
+"ach.thousandXP.title" = "Мың XP";
+"ach.thousandXP.hint" = "1 000 XP жинау";
+
+/* ─── Хабарландырулар ─────────────────────────────────────── */
+
+"notif.cooldown.title %lld" = "%lld-раунд дайын";
+"notif.cooldown.body" = "Үзіліс аяқталды — келесі раундты өтіңіз.";
+"notif.permission.denied.title" = "Хабарландырулар өшірілген";
+"notif.permission.denied.body" = "Asma хабарландыруларын iOS параметрлерінде қосып, келесі раунд туралы хабар алыңыз.";
+
+"nudge.title" = "Asma";
+"nudge.morning.dueReviews %lld" = "%lld есім қайталауға дайын";
+"nudge.evening.studyingToday %lld" = "Бүгін үйренетін %lld есім  ·  2 минут";
+"nudge.evening.readyToTest %lld" = "%lld есім тексеруге дайын";
+
+/* ─── Фондық дыбыс ────────────────────────────────────────── */
+
+"ambient.title" = "Дыбыс";
+"ambient.birds" = "Құстар";
+"ambient.rain" = "Жаңбыр";
+"ambient.waves" = "Толқындар";
+"ambient.thunderstorm" = "Найзағай";
+"ambient.silent" = "Үнсіз";

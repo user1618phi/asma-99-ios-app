@@ -1,0 +1,441 @@
+/* ──────────────────────────────────────────────────────────
+   Asma — Русский перевод
+   Стиль: спокойный, сдержанный. Без восклицаний.
+   Имя «Аллах» не переводится. «Имена Аллаха» — стандарт.
+   ────────────────────────────────────────────────────────── */
+
+/* Общее */
+"common.continue" = "Продолжить";
+"common.done" = "Готово";
+"common.save" = "Сохранить";
+"common.ok" = "OK";
+"common.cancel" = "Отмена";
+"common.check" = "Проверить";
+"common.skip" = "Пропустить";
+"common.on" = "Вкл";
+"common.off" = "Выкл";
+
+/* Вкладки */
+"tab.home" = "Главная";
+"tab.learn" = "Учить";
+"tab.tests" = "Тесты";
+"tab.profile" = "Профиль";
+
+/* ─── Splash "Welcome Back" (cold-launch анимация) ─────────── */
+
+"welcomeBack.salutation" = "Ассаламу алейкум";
+"welcomeBack.subtitle" = "Девяносто девять имён";
+"welcomeBack.fallbackName" = "Друг";
+
+/* ─── Онбординг (8 экранов из дизайн-макета) ─────────────────── */
+
+"onboarding.skip" = "Пропустить";
+"onboarding.swipeContinue" = "Свайп вправо  ·  →";
+"onboarding.swipeBegin" = "Проведите вверх  ↑";
+"onboarding.counter %lld %lld" = "%1$lld из %2$lld";
+
+/* 01 · Приветствие */
+"onboarding.welcome.eyebrow" = "Девяносто девять имён";
+"onboarding.welcome.headline.line1" = "Тихо, по одному";
+"onboarding.welcome.headline.line2" = "дыханию.";
+"onboarding.welcome.body" = "Медленный, осознанный способ запомнить имена Аллаха — три минуты в день.";
+
+/* 02 · Метод */
+"onboarding.method.eyebrow" = "Как это работает";
+"onboarding.method.headline.line1" = "Три";
+"onboarding.method.headline.line2" = "минуты";
+"onboarding.method.headline.gold" = "в день.";
+"onboarding.method.step1.title" = "Встреча с именем";
+"onboarding.method.step1.body" = "Одно имя за раз — без спешки.";
+"onboarding.method.step2.title" = "Подумать и открыть";
+"onboarding.method.step2.body" = "Удержите смысл в уме; затем посмотрите перевод.";
+"onboarding.method.step3.title" = "Проверить, что осталось";
+"onboarding.method.step3.body" = "Короткие раунды закрепляют изученное.";
+
+/* 03 · Карточки и тесты */
+"onboarding.cards.eyebrow" = "Как имя укореняется";
+"onboarding.cards.headline.line1" = "Встретить имя,";
+"onboarding.cards.headline.line2" = "и сделать его";
+"onboarding.cards.headline.gold" = "своим.";
+"onboarding.cards.body" = "Карточки знакомят с каждым именем. Короткие тесты возвращают его — три верных подряд, и имя подтверждено.";
+"onboarding.cards.meaning" = "Милосердный";
+"onboarding.cards.then" = "затем";
+
+/* 04 · Память */
+"onboarding.memory.eyebrow" = "Долгая память";
+"onboarding.memory.headline.line1" = "Имя";
+"onboarding.memory.headline.line2" = "возвращается";
+"onboarding.memory.headline.gold" = "и остаётся.";
+"onboarding.memory.body" = "Короткие паузы между раундами, затем тихие повторения через дни и недели — чтобы каждое имя укоренилось на годы, а не на дни.";
+
+/* 05 · HP */
+"onboarding.hp.eyebrow" = "Маленькая награда";
+"onboarding.hp.headline.line1" = "Каждый шаг";
+"onboarding.hp.headline.line2.plain" = "приносит ";
+"onboarding.hp.headline.line2.gold" = "HP.";
+"onboarding.hp.body" = "Карточки, тесты, чтение вслух — каждое действие тихо добавляет золота. Числа растут, пока имена пускают корни.";
+"onboarding.hp.badge" = "+ 15 HP";
+
+/* 06 · Уведомления */
+"onboarding.notify.eyebrow" = "Тихие напоминания";
+"onboarding.notify.headline.line1" = "Мягкое напоминание,";
+"onboarding.notify.headline.gold" = "только если нужно.";
+"onboarding.notify.body" = "";
+"onboarding.notify.toast1" = "3 имени готовы к повтору";
+"onboarding.notify.toast2" = "5 имён готовы к подтверждению";
+"onboarding.notify.primary" = "Разрешить уведомления";
+"onboarding.notify.secondary" = "Не сейчас";
+
+/* 07 · Темп */
+"onboarding.pace.eyebrow" = "Ваш темп";
+"onboarding.pace.headline.line1" = "Сколько имён";
+"onboarding.pace.headline.line2" = "";
+"onboarding.pace.headline.line3" = "в день?";
+"onboarding.pace.body" = "Ритм можно менять в любое время.";
+"onboarding.pace.chip.easy" = "Лёгкий";
+"onboarding.pace.chip.gentle" = "Спокойный";
+"onboarding.pace.chip.steady" = "Уверенный";
+"onboarding.pace.chip.focused" = "Сфокус.";
+
+/* 08 · Ваше имя */
+"onboarding.name.eyebrow" = "И последнее";
+"onboarding.name.arabic" = "مَا اسْمُكَ";
+"onboarding.name.headline.line1" = "Как нам";
+"onboarding.name.headline.gold" = "вас называть?";
+"onboarding.name.body" = "Ваше имя появится в утреннем приветствии.";
+"onboarding.name.fieldLabel" = "Ваше имя";
+"onboarding.name.placeholder" = "";
+"onboarding.name.privacy" = "Хранится только на этом устройстве.";
+"onboarding.name.cta" = "Начать";
+
+/* ─── Rate us (после первого Round 1 + баннер на Главной) ─── */
+
+"rateUs.eyebrow" = "Небольшая просьба";
+"rateUs.headline.line1" = "Найдётся";
+"rateUs.headline.gold" = "минута?";
+"rateUs.body" = "Несколько секунд — и эти имена найдут другие.";
+"rateUs.primary" = "Оценить Asma";
+"rateUs.secondary" = "Позже";
+"rateUs.banner.text" = "Нравится Asma?";
+"rateUs.banner.cta" = "Оценить";
+
+/* ─── Главная ─────────────────────────────────────────────── */
+
+"home.greeting %@" = "Ассаламу алейкум, %@";
+"home.continue.eyebrow" = "Продолжить";
+"home.continue.title" = "Продолжить сегодняшнее занятие";
+"home.continue.due %lld %lld" = "%1$lld карточек  ·  %2$lld мин";
+"home.day %lld" = "Сегодня  ·  День %02lld";
+"home.progress %lld" = "%02lld / 99";
+"home.dueReviews %lld" = "%lld на повтор";
+
+/* State-aware Continue CTA — см. HomeView.SessionStatus. */
+"home.cta.fresh.eyebrow" = "Начать";
+"home.cta.fresh.title" = "Начнём с первого имени";
+"home.cta.fresh.subtitle %lld %lld" = "%1$lld имён  ·  ~%2$lld мин";
+
+"home.cta.studying.eyebrow" = "Продолжить";
+"home.cta.studying.title" = "Продолжить сегодняшнее занятие";
+"home.cta.studying.subtitle %lld %lld" = "ещё %1$lld  ·  ~%2$lld мин";
+
+"home.cta.review.eyebrow" = "Сегодня";
+"home.cta.review.title %lld" = "Раунд %lld";
+"home.cta.review.subtitle %lld" = "Подтвердить %lld имён";
+
+"home.cta.done.eyebrow" = "Готово";
+"home.cta.done.title" = "Сегодняшнее занятие завершено";
+"home.cta.done.subtitle" = "Перелистать девяносто девять";
+
+"home.cta.cooldown.eyebrow" = "Перерыв";
+"home.cta.cooldown.title.minutes %lld" = "Следующий раунд через %lld мин";
+"home.cta.cooldown.title.hours %lld" = "Следующий раунд через %lld ч";
+"home.cta.cooldown.title.hoursAndMinutes %lld %lld" = "Следующий раунд через %1$lld ч %2$lld мин";
+"home.cta.cooldown.subtitle" = "Пауза укрепляет память";
+
+/* ─── Учить (список флэшкарт) ─────────────────────────────── */
+
+"learn.eyebrow" = "Запоминание";
+"learn.title" = "Учить";
+"learn.subtitle" = "Девяносто девять имён — в вашем темпе.";
+"learn.search.placeholder" = "Найти имя";
+
+"learn.session.eyebrow" = "Начать занятие";
+"learn.session.title" = "Повторить имена, требующие внимания";
+
+/* State-aware карточка сессии на экране Учить. */
+"learn.cta.fresh.eyebrow" = "Старт";
+"learn.cta.fresh.title" = "Начнём с первого имени";
+"learn.cta.active.title" = "Продолжить сегодняшнее занятие";
+"learn.cta.freePractice.eyebrow" = "Свободно";
+"learn.cta.freePractice.title" = "Перелистать все 99 имён";
+"learn.cta.freePractice.subtitle" = "Без учёта прогресса";
+
+"learn.favorites" = "Избранное";
+"learn.allNames" = "Все девяносто девять";
+"learn.allah.title" = "Аллах";
+"learn.allah.subtitle" = "Личное имя";
+
+/* ─── Сессия флэшкарт ─────────────────────────────────────── */
+
+"flashcards.topTitle" = "Карточки";
+"flashcards.eyebrow.position %lld" = "Имя %02lld из 99";
+"flashcards.reveal" = "Открыть";
+"flashcards.tapToHear" = "Прослушать";
+"flashcards.dontKnow" = "Не знаю";
+"flashcards.know" = "Знаю";
+
+"flashcards.complete.title" = "Сеанс завершён";
+"flashcards.complete.subtitle %lld %lld" = "%1$lld из %2$lld имён выучено";
+"flashcards.complete.continue" = "Продолжить";
+
+/* ─── Тесты (главный экран) ───────────────────────────────── */
+
+"tests.eyebrow" = "Закрепление";
+"tests.title" = "Тесты";
+"tests.subtitle" = "Выберите формат проверки.";
+"tests.footer %lld" = "В каждом раунде %lld вопросов. Неверные ответы повторяются до правильного.";
+
+"tests.mode.nameToMeaning.title" = "Имя → Значение";
+"tests.mode.nameToMeaning.subtitle" = "Выберите правильное значение";
+"tests.mode.meaningToName.title" = "Значение → Имя";
+"tests.mode.meaningToName.subtitle" = "Выберите подходящее имя";
+"tests.mode.audioToArabic.title" = "Звук → Арабский";
+"tests.mode.audioToArabic.subtitle" = "Выберите правильное написание";
+"tests.mode.mix.title" = "Смешанный";
+"tests.mode.mix.subtitle" = "Сочетание всех режимов";
+
+"tests.today.summary %lld %lld" = "Сегодня  ·  %1$lld новых  ·  %2$lld на повтор";
+"tests.today.empty" = "Сначала пройдите карточки — они откроют сегодняшний тест";
+"tests.empty.title" = "Сегодня пока нечего проверять";
+"tests.empty.subtitle" = "Откройте карточки и изучите несколько имён — после этого тест начнёт спрашивать именно их.";
+"tests.empty.cta" = "Назад к карточкам";
+
+"tests.cooldown.eyebrow" = "Перерыв";
+"tests.cooldown.countdown.minutes %lld" = "%lld мин";
+"tests.cooldown.countdown.hours %lld" = "%lld ч";
+"tests.cooldown.countdown.hoursAndMinutes %lld %lld" = "%1$lld ч %2$lld мин";
+"tests.cooldown.explanation" = "Раунды, разнесённые по времени, надолго укладывают имена в память. Возвращайтесь когда таймер закончится.";
+
+/* Тренировочный тест — практика по всем 99 именам во время паузы. Без HP и прогресса. */
+"tests.freeQuiz.cta.title" = "Тренировочный тест";
+"tests.freeQuiz.cta.subtitle" = "Все 99 имён · не влияет на прогресс";
+"tests.freeQuiz.eyebrow" = "Свободная практика";
+"tests.freeQuiz.picker.title" = "Practice Quiz";
+"tests.freeQuiz.picker.subtitle" = "Выберите режим";
+"tests.freeQuiz.picker.note" = "Все 99 имён · не влияет на HP, освоение и расписание повторов.";
+"tests.freeQuiz.complete.eyebrow" = "Тест завершён";
+"tests.freeQuiz.complete.subtitle" = "Только практика — реальный прогресс не тронут.";
+
+/* ─── Сессия теста ────────────────────────────────────────── */
+
+"test.eyebrow %@" = "Тест  ·  %@";
+"test.eyebrow.retry %lld %@" = "Повтор ×%1$lld  ·  %2$@";
+"test.mode.short.meaning" = "значение";
+"test.mode.short.name" = "имя";
+"test.mode.short.listen" = "звук";
+"test.mode.short.mix" = "смешанный";
+
+"test.prompt.matchMeaning" = "Подберите значение";
+"test.prompt.matchName" = "Подберите имя";
+"test.prompt.matchSpelling" = "Подберите написание";
+"test.prompt.match" = "Подберите";
+"test.audio.play" = "Воспроизвести";
+"test.check" = "Проверить";
+"test.continue" = "Дальше";
+
+/* ─── Результат теста ─────────────────────────────────────── */
+
+"test.result.eyebrow" = "Завершено";
+"test.result.titleLine1" = "Раунд";
+"test.result.titleLine2" = "пройден.";
+"test.result.firstTry" = "С первой попытки";
+"test.result.accuracy" = "Точность";
+"test.result.cycles" = "Циклы";
+"test.result.earned" = "Получено";
+"test.result.confirmedToday %lld" = "%lld подтверждено сегодня";
+"test.result.masteredToday %lld" = "%lld выучено";
+
+/* ─── Детали имени ────────────────────────────────────────── */
+
+"nameDetail.eyebrow" = "Имя";
+"nameDetail.action.listen" = "Слушать";
+"nameDetail.action.favorite" = "В избранное";
+"nameDetail.action.practice" = "Произнести";
+"nameDetail.meaning" = "Значение";
+
+/* ─── Награда (экраны после сессии) ───────────────────────── */
+
+"reward.hp" = "HP";
+"reward.cta.done" = "Готово";
+
+"reward.eyebrow.session" = "Сеанс завершён";
+"reward.eyebrow.test" = "Тест завершён";
+"reward.eyebrow.practice" = "Произношение завершено";
+
+"reward.heading.mashallah" = "МашаАллах";
+"reward.heading.alhamdulillah" = "АльхамдулиЛлях";
+"reward.heading.gettingThere" = "Уже близко";
+
+"reward.subtitle.flashcard" = "Сложные карточки вернутся завтра";
+"reward.subtitle.testPassed" = "Ошибки вернутся завтра";
+"reward.subtitle.testLow" = "Ошибки вернутся завтра";
+"reward.subtitle.practicePassed" = "Произношение прозвучало ясно";
+"reward.subtitle.practiceLow" = "Попробуйте снова — медленно и внимательно";
+
+"reward.stat.reviewed" = "Пройдено";
+"reward.stat.time" = "Время";
+"reward.stat.firstTry" = "С первой";
+"reward.stat.final" = "Итого";
+"reward.stat.accuracy" = "Точность";
+"reward.stat.score" = "Оценка";
+"reward.stat.complete" = "Полнота";
+
+"reward.info.title" = "Как начисляется HP";
+"reward.info.gotIt" = "Понятно";
+
+"reward.info.flash.l1" = "За каждый тап «Знаю» — 2 HP.";
+"reward.info.flash.l2" = "Выполнили дневную цель — сверху бонус 10 HP.";
+"reward.info.flash.l3" = "Тап «Не знаю» — не ошибка. Это имя вернётся раньше.";
+
+"reward.info.testPassed.l1" = "База HP растёт с длиной сессии — до 100 за раунд из 10 вопросов.";
+"reward.info.testPassed.l2" = "Точность с первой попытки 60% и выше — полная база награды.";
+"reward.info.testPassed.l3" = "Каждое имя, дошедшее до «3 подряд» — плюс 15 HP.";
+
+"reward.info.testLow.l1" = "База HP, умноженная на точность с первой попытки.";
+"reward.info.testLow.l2" = "Меньше 60% — меньшая награда, но раунд всё равно двигает вперёд.";
+"reward.info.testLow.l3" = "Имена с ошибками вернутся в следующей сессии — повторение строит память.";
+
+/* ─── Практика ────────────────────────────────────────────── */
+
+"practice.eyebrow" = "Произношение";
+"practice.eyebrow.position %lld" = "Имя %02lld из 99";
+"practice.status.listening" = "Произнесите вслух  ·  слушаем";
+"practice.status.tapMic" = "Нажмите микрофон";
+"practice.guidance" = "Нажмите для записи. Asma слушает на устройстве и оценивает ваше произношение.";
+"practice.mic.tapStart" = "Начать запись";
+"practice.mic.tapStop" = "Остановить";
+
+"practice.verdict.tryAgain" = "Попробуйте ещё раз";
+"practice.verdict.getting" = "Уже близко";
+"practice.verdict.good" = "Хорошо";
+"practice.verdict.excellent" = "Отлично";
+
+"practice.stat.accuracy" = "Точность";
+"practice.stat.clarity" = "Чистота";
+"practice.stat.complete" = "Полнота";
+"practice.tryAgain" = "Ещё раз";
+
+"practice.error.title" = "Ошибка записи";
+"practice.error.permissionDenied" = "Нет доступа к микрофону. Разрешите его в Настройках, чтобы тренировать произношение.";
+"practice.error.unavailable" = "Распознавание речи недоступно на этом устройстве.";
+"practice.error.notHeard" = "Мы вас не расслышали. Попробуйте ещё раз — говорите ближе к микрофону.";
+"practice.error.notRecognized" = "Голос мы услышали, но не смогли распознать арабский. Попробуйте ещё раз — чуть медленнее и чётче.";
+"practice.diff.target" = "Цель";
+
+/* ─── Профиль ─────────────────────────────────────────────── */
+
+"profile.eyebrow" = "Профиль";
+"profile.guestName" = "Друг";
+"profile.began %@" = "Начало пути  ·  %@";
+"profile.hero.eyebrow" = "Имён выучено";
+"profile.hero.suffix" = "наизусть";
+"profile.poetic %lld" = "Осталось %lld имён. Без спешки — времени достаточно.";
+"profile.poetic.start" = "Впереди девяносто девять. Без спешки — времени достаточно.";
+
+"profile.general" = "Основное";
+"profile.section.support" = "Поддержка";
+"profile.section.about" = "О приложении";
+"profile.section.legal" = "Правовая информация";
+
+"profile.languages" = "Язык";
+"profile.cards_per_day" = "Карточек в день";
+"profile.notifications" = "Уведомления";
+
+"profile.contact_us" = "Связаться с нами";
+"profile.request_feature" = "Предложить функцию";
+"profile.report_bug" = "Сообщить об ошибке";
+
+"profile.follow_us" = "Подписаться";
+"profile.rate_us" = "Оценить";
+
+"profile.terms_of_service" = "Условия использования";
+"profile.privacy_policy" = "Политика конфиденциальности";
+
+/* ─── Выбор количества карточек ───────────────────────────── */
+
+"cards_per_day.eyebrow" = "Карточек в день";
+"cards_per_day.description" = "Выберите свой ритм. Менять можно в любой момент.";
+
+/* ─── Заготовки сообщений для Telegram ────────────────────── */
+
+"support.message.contact" = "Assalamu alaikum, у меня вопрос по Asma.";
+"support.message.feature" = "Assalamu alaikum, хочу предложить идею для Asma:";
+"support.message.bug"     = "Assalamu alaikum, нашёл баг в Asma. Вот что произошло:";
+
+/* ─── Выбор языка перевода ────────────────────────────────── */
+
+"language.eyebrow" = "Язык перевода";
+"language.description" = "Выберите, на каком языке отображать значения имён.";
+
+/* ─── Сура об имени «Аллах» ───────────────────────────────── */
+
+"allah.eyebrow" = "Личное имя";
+"allah.title" = "Аллах — личное имя Творца, а не звание и не атрибут.";
+"allah.body" = "Девяносто девять имён, что следуют далее, — это Его атрибуты: качества милости, справедливости, знания и красоты, указывающие на это единое имя.";
+"allah.hadith" = "«Поистине, у Аллаха девяносто девять имён — сто без одного — и тот, кто исчислит их, войдёт в Рай».";
+"allah.hadith.source" = "Сахих аль-Бухари";
+
+/* ─── Статистика ──────────────────────────────────────────── */
+
+"stats.eyebrow" = "Статистика";
+"stats.title" = "Ваш путь";
+"stats.seen" = "Просмотрено";
+"stats.learned" = "Выучено";
+"stats.totalXP" = "Всего XP";
+"stats.sessions" = "Сессии";
+"stats.last7days" = "За 7 дней";
+
+/* ─── Достижения ──────────────────────────────────────────── */
+
+"achievements.eyebrow" = "Вехи";
+"achievements.title" = "Достижения";
+
+"ach.firstName.title" = "Первое имя";
+"ach.firstName.hint" = "Открыть любое имя";
+"ach.tenSeen.title" = "Десять увидено";
+"ach.tenSeen.hint" = "Просмотреть 10 имён";
+"ach.tenLearned.title" = "Десять выучено";
+"ach.tenLearned.hint" = "Освоить 10 имён";
+"ach.thirdOfNinety.title" = "Треть пути";
+"ach.thirdOfNinety.hint" = "Освоить 33 имени";
+"ach.allNinetyNine.title" = "Все девяносто девять";
+"ach.allNinetyNine.hint" = "Освоить каждое имя";
+"ach.spokenAloud.title" = "Произнесено";
+"ach.spokenAloud.hint" = "Прочитать имя вслух (≥ 70%)";
+"ach.tenRecitations.title" = "Десять чтений";
+"ach.tenRecitations.hint" = "Прочитать 10 имён вслух";
+"ach.hundredXP.title" = "Сто XP";
+"ach.hundredXP.hint" = "Заработать 100 XP";
+"ach.thousandXP.title" = "Тысяча XP";
+"ach.thousandXP.hint" = "Заработать 1 000 XP";
+
+/* ─── Уведомления ─────────────────────────────────────────── */
+
+"notif.cooldown.title %lld" = "Раунд %lld готов";
+"notif.cooldown.body" = "Перерыв закончился — пройдите следующий раунд.";
+"notif.permission.denied.title" = "Уведомления отключены";
+"notif.permission.denied.body" = "Включите уведомления Asma в настройках iOS, чтобы вовремя узнать о следующем раунде.";
+
+"nudge.title" = "Asma";
+"nudge.morning.dueReviews %lld" = "%lld имён готовы к повторению";
+"nudge.evening.studyingToday %lld" = "Сегодня %lld имён к изучению  ·  2 минуты";
+"nudge.evening.readyToTest %lld" = "%lld имён готовы к проверке";
+
+/* ─── Фоновый звук ────────────────────────────────────────── */
+
+"ambient.title" = "Звук";
+"ambient.birds" = "Птицы";
+"ambient.rain" = "Дождь";
+"ambient.waves" = "Волны";
+"ambient.thunderstorm" = "Гроза";
+"ambient.silent" = "Тишина";
