@@ -63,6 +63,10 @@ Scripts/           # build-time data prep (not shipped in the app bundle)
 project.yml        # XcodeGen spec
 ```
 
+## License
+
+Source code — [MIT](LICENSE). The 99 Names content itself comes from [islamicapi.com](https://islamicapi.com) and is used with permission; the MIT license covers the application code only.
+
 ## Docs
 
 - [`docs/learning-engine.md`](docs/learning-engine.md) — flashcards, tests, rounds and HP
