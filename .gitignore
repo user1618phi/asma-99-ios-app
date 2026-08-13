@@ -37,3 +37,6 @@ islamicapi.md
 # Generated Xcode project (XcodeGen output)
 Asma.xcodeproj
 99appicon.png
+
+# Python venv used by helper scripts
+venv_img/
